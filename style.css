@@ -31,9 +31,6 @@ table td{
 	background-color: #fff;
 }
 
-table img{
-	width:  70%;
-}
 
 table td.total-price{
 	font-weight: bold;
@@ -43,7 +40,7 @@ table a{
 	text-decoration: none;
 	color: rgb(231, 19, 19);
 	background-color: #ffffff;
-	padding: 10px 15px;
+	
 }
 table a:active{
 	background-color: #ccf4d6;
@@ -54,16 +51,14 @@ table select{
 	padding: 10px;
 	width:  200px;
 	font-size: 16px;
-	border: thin solid #d4d4d4;
+	border: thin solid #cc0f0f;
 	background-color: transparent;
 }
 table select:focus{
 	outline: none;
 }
 
-table img{
-	width:  60%;
-}
+
 
 #banner {
 	width: 550px;
@@ -99,13 +94,14 @@ table img{
 	color: #e0ed86;
 	background: #003c41;
 	font-family: "Segoe UI", sans-serif;
-	width: 290px;
+	width: 330px;
 	padding: 10px;
 	border: 3px solid #83c0ee;
 	border-radius: 5px;
 	transition: 0.5s;
 	transition-property: background, box-shadow;
 	margin: auto;
+	text-align: center;
   }
 
 .search {
@@ -144,4 +140,9 @@ table img{
 	border-radius: 0 5px 5px 0;
 	cursor: pointer;
 	font-size: 20px;
+  }
+  #txt{
+	text-align: center;
+	font-size: 20px;
+	color: #8e7e02;
   }
